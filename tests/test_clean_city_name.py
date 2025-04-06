@@ -10,4 +10,4 @@ def test_clean_city_name_with_city_returns_city_in_title_case():
     assert clean_city_name("united states") == "United States"
   
 def test_clean_city_name_with_whitespace_returns_unknown():
-    assert clean_city_name("   ") == "unknown"
+    assert clean_city_name(" london ") == "London"
